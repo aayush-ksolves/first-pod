@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FirstCode'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Desc for Test.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
 
   s.source_files = 'Sources/**/*.swift'
-  s.swift_version  =  '5.0'
+  s.swift_version  = '5.0'
   s.platforms = {
     "ios": "12.0"
   }
