@@ -10,6 +10,8 @@ import UIKit
 import Alamofire
 
 public struct KColors {
+    public init() {
+    }
     var perfect: UIColor = .red
     public func perform() {
         AF.request("https://httpbin.org/get").response { response in
