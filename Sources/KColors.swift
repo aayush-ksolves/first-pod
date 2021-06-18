@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 //import Alamofire
 
-struct KColors {
+public struct KColors {
     var perfect: UIColor = .red
     
 }
