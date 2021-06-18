@@ -1,0 +1,6 @@
+framework module FirstCode {
+  umbrella header "FirstCode-umbrella.h"
+
+  export *
+  module * { export * }
+}

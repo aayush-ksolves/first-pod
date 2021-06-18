@@ -1,0 +1,16 @@
+PODS:
+  - FirstCode (0.1.0)
+
+DEPENDENCIES:
+  - FirstCode (from `../`)
+
+EXTERNAL SOURCES:
+  FirstCode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FirstCode: 4d76ee34d71575cc905e45453425401e851cd7f4
+
+PODFILE CHECKSUM: 37cbca0b163d14757e66ccd3f5aec5c2753e810c
+
+COCOAPODS: 1.10.1
