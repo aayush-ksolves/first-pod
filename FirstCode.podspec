@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'FirstCode/Sources/**/*.swift'
+  s.source_files = 'Sources/**/*.swift'
   s.swift_version  =  '5.0'
   s.platform = {
     "iOS": "12.0"
