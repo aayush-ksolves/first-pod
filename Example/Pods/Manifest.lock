@@ -1,16 +1,24 @@
 PODS:
-  - FirstCode (0.1.0)
+  - Alamofire (5.4.3)
+  - FirstCode (0.1.1):
+    - Alamofire (~> 5.2)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.2)
   - FirstCode (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   FirstCode:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FirstCode: 4d76ee34d71575cc905e45453425401e851cd7f4
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  FirstCode: 946b324894f7e08b6b93b89b6c8a3bd14449f76c
 
-PODFILE CHECKSUM: 37cbca0b163d14757e66ccd3f5aec5c2753e810c
+PODFILE CHECKSUM: aa3399ad1d43912117af740e9a9c3c596839af39
 
 COCOAPODS: 1.10.1

@@ -1,9 +1,9 @@
 {
   "name": "FirstCode",
-  "version": "0.1.0",
-  "summary": "A short description of FirstCode.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/aayush-ksolves/FirstCode",
+  "version": "0.1.1",
+  "summary": "Desc for Test.",
+  "description": "'Perfect Desc'",
+  "homepage": "https://github.com/aayush-ksolves/first-pod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,18 @@
     "aayush-ksolves": "aayush@ksolves.com"
   },
   "source": {
-    "git": "https://github.com/aayush-ksolves/FirstCode.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/aayush-ksolves/first-pod.git",
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "12.0"
   },
-  "source_files": "FirstCode/Classes/**/*"
+  "source_files": "Sources/**/*.swift",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.2"
+    ]
+  },
+  "swift_version": "5.0"
 }

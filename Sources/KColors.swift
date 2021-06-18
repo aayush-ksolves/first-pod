@@ -7,9 +7,13 @@
 
 import Foundation
 import UIKit
-//import Alamofire
+import Alamofire
 
 public struct KColors {
     var perfect: UIColor = .red
-    
+    func perform() {
+        AF.request("https://httpbin.org/get").response { response in
+            debugPrint("Response: \(response)")
+        }
+    }
 }

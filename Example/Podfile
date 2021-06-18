@@ -1,6 +1,6 @@
 use_frameworks!
 target 'FirstCode_Tests' do
   pod 'FirstCode', :path => '../'
-  
+  pod 'Alamofire', '~> 5.2'
   
 end
