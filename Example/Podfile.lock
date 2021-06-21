@@ -1,24 +1,67 @@
 PODS:
-  - Alamofire (5.4.3)
-  - FirstCode (0.1.1):
-    - Alamofire (~> 5.2)
+  - BlueCryptor (1.0.32)
+  - BlueECC (1.2.5)
+  - BlueRSA (1.0.34)
+  - FirstCode (0.1.5):
+    - SDWebImage
+    - SwiftJWT
+    - SwiftyJSON
+    - UIActivityIndicator-for-SDWebImage
+  - KituraContracts (1.2.1):
+    - LoggerAPI (~> 1.7)
+  - LoggerAPI (1.9.200):
+    - Logging (~> 1.1)
+  - Logging (1.4.0)
+  - SDWebImage (3.8.3):
+    - SDWebImage/Core (= 3.8.3)
+  - SDWebImage/Core (3.8.3)
+  - SwiftJWT (3.6.200):
+    - BlueCryptor (~> 1.0)
+    - BlueECC (~> 1.1)
+    - BlueRSA (~> 1.0)
+    - KituraContracts (~> 1.2)
+    - LoggerAPI (~> 1.7)
+  - SwiftyJSON (5.0.1)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
 
 DEPENDENCIES:
-  - Alamofire (~> 5.2)
   - FirstCode (from `../`)
+  - SDWebImage
+  - SwiftJWT
+  - SwiftyJSON
+  - UIActivityIndicator-for-SDWebImage
 
 SPEC REPOS:
   trunk:
-    - Alamofire
+    - BlueCryptor
+    - BlueECC
+    - BlueRSA
+    - KituraContracts
+    - LoggerAPI
+    - Logging
+    - SDWebImage
+    - SwiftJWT
+    - SwiftyJSON
+    - UIActivityIndicator-for-SDWebImage
 
 EXTERNAL SOURCES:
   FirstCode:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
-  FirstCode: 946b324894f7e08b6b93b89b6c8a3bd14449f76c
+  BlueCryptor: b0aee3d9b8f367b49b30de11cda90e1735571c24
+  BlueECC: 0d18e93347d3ec6d41416de21c1ffa4d4cd3c2cc
+  BlueRSA: 6f9776d62d9773502415a7db3bcbb2bbb3f71fc3
+  FirstCode: 8f44c51316cee2e93e203ce12cb69c246f3e2231
+  KituraContracts: e845e60dc8627ad0a76fa55ef20a45451d8f830b
+  LoggerAPI: ad9c4a6f1e32f518fdb43a1347ac14d765ab5e3d
+  Logging: beeb016c9c80cf77042d62e83495816847ef108b
+  SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
+  SwiftJWT: 88c412708f58c169d431d344c87bc79a87c830ae
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
 
-PODFILE CHECKSUM: aa3399ad1d43912117af740e9a9c3c596839af39
+PODFILE CHECKSUM: 1453790bf0e4d6f7b54b951f0228d9280b27471c
 
 COCOAPODS: 1.10.1

@@ -7,15 +7,13 @@
 
 import Foundation
 import UIKit
-import Alamofire
+import SDWebImage
 
 public struct KColors {
     public init() {
     }
     var perfect: UIColor = .red
     public func perform() {
-        AF.request("https://httpbin.org/get").response { response in
-            debugPrint("Response: \(response)")
-        }
+        print(SDWebImage.SDImageCache())
     }
 }

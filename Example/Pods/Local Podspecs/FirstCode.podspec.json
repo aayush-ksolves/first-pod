@@ -1,6 +1,6 @@
 {
   "name": "FirstCode",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "summary": "Desc for Test.",
   "description": "'Perfect Desc'",
   "homepage": "https://github.com/aayush-ksolves/first-pod",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/aayush-ksolves/first-pod.git",
-    "tag": "0.1.1"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "12.0"
@@ -21,8 +21,17 @@
   "source_files": "Sources/**/*.swift",
   "swift_versions": "5.0",
   "dependencies": {
-    "Alamofire": [
-      "~> 5.2"
+    "SwiftyJSON": [
+
+    ],
+    "SwiftJWT": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "UIActivityIndicator-for-SDWebImage": [
+
     ]
   },
   "swift_version": "5.0"
